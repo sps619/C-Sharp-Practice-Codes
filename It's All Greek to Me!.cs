@@ -15,11 +15,11 @@ namespace ProgrammingAssignment1
             Console.Write("Enter first x value: ");
             float point1X = float.Parse(Console.ReadLine());
             Console.WriteLine();
-            Console.Write("Enter second x value: ");
-            float point2X = float.Parse(Console.ReadLine());
-            Console.WriteLine();
             Console.Write("Enter first y value: ");
             float point1Y = float.Parse(Console.ReadLine());
+            Console.WriteLine();
+            Console.Write("Enter second x value: ");
+            float point2X = float.Parse(Console.ReadLine());
             Console.WriteLine();
             Console.Write("Enter second y value: ");
             float point2Y = float.Parse(Console.ReadLine());
@@ -40,9 +40,7 @@ namespace ProgrammingAssignment1
             double angle = (double)radians * (180 / Math.PI);
             //printing the angle
             Console.Write("Angle between the points: " + angle);
-
-            //To see the output screen
-            int parse = int.Parse(Console.ReadLine());
+            Console.WriteLine();
         }
     }
 }
